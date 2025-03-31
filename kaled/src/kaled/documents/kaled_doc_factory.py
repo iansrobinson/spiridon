@@ -1,4 +1,4 @@
-from kaled.documenst import DocumentFactory, DocumentFactoryRegistration
+from kaled.documents import DocumentFactory, DocumentFactoryRegistration
 from kaled.documents.kaled import KaledDoc
 
 class KaledDocFactory(DocumentFactory, metaclass=DocumentFactoryRegistration):
