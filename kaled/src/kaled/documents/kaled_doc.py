@@ -1,6 +1,7 @@
+from kaled.schema import DocBase
 from llama_index.core.schema import TextNode
 
-class KaledCore():
+class KaledDoc(DocBase):
     
     def to_doc(self, s):
         return TextNode(text=s)
