@@ -21,5 +21,10 @@ setuptools.setup(
     ],
     python_requires=">=3.10",
     install_requires=deps,
-    version="1.1.14"
+    version="1.1.15"
 )
+
+
+from graphrag_toolkit import GraphRAGConfig
+
+print(f'LLM: {GraphRAGConfig.extraction_llm}')
