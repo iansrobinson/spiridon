@@ -1,4 +1,4 @@
-from kaled.documents import DocumentFactory, DocumentFactoryRegistration
+from kaled.documents.document_factory import DocumentFactory, DocumentFactoryRegistration
 from kaled.documents.thal import ThalDoc
 
         
