@@ -1,5 +1,4 @@
 import abc
-from .schema import Docbase
 
 document_factory_registry = {}
 
