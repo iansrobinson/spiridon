@@ -1,0 +1,1 @@
+from .thal_doc_factory import ThalDocFactory

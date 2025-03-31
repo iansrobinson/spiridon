@@ -1,1 +1,1 @@
-from .thal_doc import ThalDoc, ThalDocFactory
+from .thal_doc import ThalDoc
