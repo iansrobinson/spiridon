@@ -1,4 +1,4 @@
-from kaled.schema import DocBase
+from .schema import DocBase
 from llama_index.core.schema import TextNode
 
 class KaledDoc(DocBase):
