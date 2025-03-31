@@ -1,1 +1,1 @@
-from .kaled_doc import KaledDoc, KaledDocFactory
+from .kaled_doc import KaledDoc
