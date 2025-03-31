@@ -1,5 +1,4 @@
-from .schema import DocBase
-from .document_factory import DocumentFactory, DocumentFactoryRegistration
+from kaled.documents import DocBase, DocumentFactory, DocumentFactoryRegistration
 from llama_index.core.schema import TextNode
 
 class KaledDoc(DocBase):    
