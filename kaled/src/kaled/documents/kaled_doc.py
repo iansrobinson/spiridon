@@ -9,7 +9,7 @@ class KaledDoc(DocBase):
 class KaledDocFactory(DocumentFactory, metaclass=DocumentFactoryRegistration):
     def try_create(self, s):
         if 'kaled' in s:
-            return KaledDoc
+            return KaledDoc()
         else:
             return None
 

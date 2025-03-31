@@ -8,7 +8,7 @@ class ThalDoc(DocBase):
 class ThalDocFactory(DocumentFactory, metaclass=DocumentFactoryRegistration):
     def try_create(self, s):
         if 'thal' in s:
-            return ThalDoc
+            return ThalDoc()
         else:
             return None
         
