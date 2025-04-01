@@ -4,11 +4,17 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "kaled"
-version = "1.1.15"
+version = "1.2.0"
 description = "Example project"
 readme = "README.md"
 requires-python = ">=3.10"
 dynamic = ["dependencies"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+'src' = ['kaled/documents/*.json']
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["src/requirements.txt"]}
